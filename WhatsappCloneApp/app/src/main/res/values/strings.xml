@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WhatsappCloneApp</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+</resources>
