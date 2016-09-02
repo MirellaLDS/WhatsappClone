@@ -19,7 +19,7 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/textNome"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -30,8 +30,8 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_below="@+id/editText"
+        android:id="@+id/textCdPais"
+        android:layout_below="@+id/textNome"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:hint="+55" />
@@ -41,10 +41,10 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText3"
-        android:layout_below="@+id/editText"
-        android:layout_toRightOf="@+id/editText2"
-        android:layout_toEndOf="@+id/editText2"
+        android:id="@+id/textCodArea"
+        android:layout_below="@+id/textNome"
+        android:layout_toRightOf="@+id/textCdPais"
+        android:layout_toEndOf="@+id/textCdPais"
         android:hint="81" />
 
     <EditText
@@ -52,18 +52,18 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText4"
-        android:layout_alignBottom="@+id/editText3"
-        android:layout_toRightOf="@+id/editText3"
-        android:layout_toEndOf="@+id/editText3"
+        android:id="@+id/textTelefone"
+        android:layout_alignBottom="@+id/textCodArea"
+        android:layout_toRightOf="@+id/textCodArea"
+        android:layout_toEndOf="@+id/textCodArea"
         android:hint="9 9999-9999" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/botao_cadastrar"
-        android:id="@+id/button"
-        android:layout_below="@+id/editText2"
+        android:id="@+id/btnCadastrar"
+        android:layout_below="@+id/textCdPais"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="40dp"
