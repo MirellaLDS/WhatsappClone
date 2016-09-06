@@ -1,7 +1,9 @@
-package com.mlds.whasappcloneapp.whatsappcloneapp;
+package com.mlds.whasappcloneapp.whatsappcloneapp.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.mlds.whasappcloneapp.whatsappcloneapp.R;
 
 public class ValidacaoActivity extends AppCompatActivity {
 
